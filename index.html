@@ -47,6 +47,7 @@
 							<strong class="fullname">My BFF</strong>
 							<span class="username">@mybff</span>
 
+
 							<!-- BLACK DIAMOND: Implement the icons for when a tweet is favorited/retweeted in the upper right of the tweet. -->
 							<!-- HINT: Add to what you created in Step 5 -->
 							<p class="tweet-text">Today is an amazing day.</p>
@@ -86,7 +87,8 @@
 								<!-- BLACK DIAMOND: Make the timestamp below similar to how they look on Twitter (1h, 18m, 1m) and use the jQuery timeago plugin to make them automatic. -->
 								<!-- HINT: Refer to timeago documentation -->
 								<div class="time">
-									1:04 PM - 19 Sep 13
+
+									<time class="timeago" datetime="2013-04-01T06:24:17Z">February 12, 2016</time>
 								</div>
 							</div>
 							<div class="reply">
@@ -126,7 +128,7 @@
 									</div>
 								</div>
 								<div class="time">
-									1:04 PM - 19 Sep 13
+									<time class="timeago" datetime="2013-04-01T06:24:17Z">February 12, 2016</time>
 								</div>
 							</div>
 							<div class="reply">
@@ -166,7 +168,7 @@
 									</div>
 								</div>
 								<div class="time">
-									1:04 PM - 19 Sep 13
+									<time class="timeago" datetime="2013-04-01T06:24:17Z">February 12, 2016</time>
 								</div>
 							</div>
 							<div class="reply">
@@ -178,5 +180,16 @@
 				</div><!-- #stream -->
 			</div><!-- #main -->
 		</div><!-- #page-container -->
+
+<!--linked html to jquery found in "js" file. -->
+		<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+
+<!-- linked html to animations.js found in "js" file -->
+		<script type="text/javascript" src="js/animations.js"></script>
+
+<!-- linked html to jquery.timeago.js found in the "js" file -->
+		<script type="text/javascript" src="js/jquery.timeago.js"></script>
+
+
 	</body>
 </html>
